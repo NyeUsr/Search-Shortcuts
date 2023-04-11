@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "InfoTiger Search",
+  "version": "1.0.0",
+  "description": "Easily add InfoTiger as a search engine in Firefox.",
+"chrome_settings_overrides": {
+            "search_provider": {
+                "name": "InfoTiger",
+                "search_url": "https://www.alexandria.org/?q={searchTerms}",
+                "suggest_url": "https://infotiger.com/suggest/?q={searchTerms}",
+                "favicon_url": "https://infotiger.com/icon/favicon-32x32.png",
+                "keyword": "infotiger"
+  }
+ }
+}

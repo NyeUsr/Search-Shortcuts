@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Alexandria Search",
+  "version": "1.0.0",
+  "description": "Easily add Alexandria as a search engine in Firefox.",
+"chrome_settings_overrides": {
+            "search_provider": {
+                "name": "Alexandria",
+                "search_url": "https://www.alexandria.org/?q={searchTerms}",
+                "favicon_url": "https://www.alexandria.org/favicon.ico",
+                "keyword": "alexandria"
+  }
+ }
+}
