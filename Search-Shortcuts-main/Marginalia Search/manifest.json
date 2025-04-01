@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Marginalia Search",
+  "version": "2.0.0",
+  "description": "Easily add Marginalia as a search engine in Firefox.",
+"chrome_settings_overrides": {
+            "search_provider": {
+                "name": "Marginalia",
+                "search_url": "https://marginalia-search.com/search?query={searchTerms}",
+                "favicon_url": "https://marginalia-search.com/favicon.ico",
+                "keyword": "marginalia"
+  }
+ }
+}
